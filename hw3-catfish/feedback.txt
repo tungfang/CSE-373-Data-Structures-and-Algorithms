@@ -1,0 +1,104 @@
+# Feedback
+
+Group catfish: leonz, tungfang
+
+Commit hash: e32a7a78e5eff2cdc61f4bed59046a3521f4448a
+
+Raw score: 60 / 60
+
+## Checkstyle
+
+Score: 5 / 5
+
+## ChainedHashDictionary
+
+Score: 30 / 30
+
+-   PASS: (weight=1.0) handlesNegativeHashCodesEfficiently
+-   PASS: (weight=1.0) testInsertingDuplicatesDoesNotResize
+-   PASS: (weight=1.0) testInternalStructure
+-   PASS: (weight=1.0) testResizing
+-   PASS: (weight=5.0) testMethodIntegration
+        Description: This test is meant to catch any miscellaneous bugs (particularly those relating
+            to internal state) that are hard to catch otherwise. The test just puts many key-value
+            pairs into your ChainedHashDictionary, then calls all your other methods repeatedly
+            while removing them. If you fail this test and nothing else, you may not be resizing
+            correctly, or some of your methods may have some unintentional, but minor side effect.
+
+-   PASS: (weight=1.0) stressTest
+-   PASS: (weight=1.0) testBigHashCodesAndNull
+-   PASS: (weight=1.0) testContainsMaintainsStateForIterator
+-   PASS: (weight=1.0) testManyObjectsWithSameHashCode
+-   PASS: (weight=1.0) testNegativeHashCode
+-   PASS: (weight=1.0) testPrivateFieldExample
+-   PASS: (weight=1.0) testContainsKeyBasic
+-   PASS: (weight=1.0) testCustomObjectKeys
+-   PASS: (weight=1.0) testEqualKeys
+-   PASS: (weight=1.0) testGetMany
+-   PASS: (weight=1.0) testGetNonexistentKeyThrowsException
+-   PASS: (weight=1.0) testIterator
+-   PASS: (weight=1.0) testIteratorEndsCorrectly
+-   PASS: (weight=1.0) testIteratorOverDictionaryWithOneElement
+-   PASS: (weight=1.0) testIteratorOverEmptyDictionary
+-   PASS: (weight=1.0) testIteratorRunsMultipleTimes
+-   PASS: (weight=1.0) testIteratorUnusualKeys
+-   PASS: (weight=1.0) testIteratorsAreIndependent
+-   PASS: (weight=1.0) testNullKey
+-   PASS: (weight=1.0) testPutAndGetBasic
+-   PASS: (weight=1.0) testPutAndGetMany
+-   PASS: (weight=1.0) testPutDuplicateKeyAndRemove
+-   PASS: (weight=1.0) testPutDuplicateKeyMany
+-   PASS: (weight=1.0) testPutDuplicateKeyMultiple
+-   PASS: (weight=1.0) testPutRemoveMany
+-   PASS: (weight=1.0) testRemoveBasic
+-   PASS: (weight=1.0) testRemoveNonexistentThrowsException
+
+## ChainedHashSet
+
+Score: 10 / 10
+
+-   PASS: (weight=1.0) stressTest
+-   PASS: (weight=1.0) testAddAndCheckMany
+-   PASS: (weight=1.0) testAddAndRemoveBasic
+-   PASS: (weight=1.0) testContains
+-   PASS: (weight=1.0) testContainsMany
+-   PASS: (weight=1.0) testContainsWithRemovesBasic
+-   PASS: (weight=1.0) testIterator
+-   PASS: (weight=1.0) testIteratorEndsCorrectly
+-   PASS: (weight=1.0) testIteratorUnusualKeys
+-   PASS: (weight=1.0) testIteratorsAreIndependent
+-   PASS: (weight=1.0) testLargeKeys
+-   PASS: (weight=1.0) testManyObjectsWithSameHashCode
+-   PASS: (weight=1.0) testNegativeHashCode
+-   PASS: (weight=1.0) testNullKey
+-   PASS: (weight=1.0) testPutAndGetSameKeyRepeated
+-   PASS: (weight=1.0) testPutAndGetSameKeyRepeatedMany
+-   PASS: (weight=1.0) testRemoveBasic
+-   PASS: (weight=1.0) testRemoveDuplicate
+-   PASS: (weight=1.0) testRemoveErrorHandling
+
+## ArrayDictionary
+
+Score: 15 / 15
+
+-   PASS: (weight=1.0) testContainsKeyBasic
+-   PASS: (weight=1.0) testCustomObjectKeys
+-   PASS: (weight=1.0) testEqualKeys
+-   PASS: (weight=1.0) testGetMany
+-   PASS: (weight=1.0) testGetNonexistentKeyThrowsException
+-   PASS: (weight=1.0) testIterator
+-   PASS: (weight=1.0) testIteratorEndsCorrectly
+-   PASS: (weight=1.0) testIteratorOverDictionaryWithOneElement
+-   PASS: (weight=1.0) testIteratorOverEmptyDictionary
+-   PASS: (weight=1.0) testIteratorRunsMultipleTimes
+-   PASS: (weight=1.0) testIteratorUnusualKeys
+-   PASS: (weight=1.0) testIteratorsAreIndependent
+-   PASS: (weight=1.0) testNullKey
+-   PASS: (weight=1.0) testPutAndGetBasic
+-   PASS: (weight=1.0) testPutAndGetMany
+-   PASS: (weight=1.0) testPutDuplicateKeyAndRemove
+-   PASS: (weight=1.0) testPutDuplicateKeyMany
+-   PASS: (weight=1.0) testPutDuplicateKeyMultiple
+-   PASS: (weight=1.0) testPutRemoveMany
+-   PASS: (weight=1.0) testRemoveBasic
+-   PASS: (weight=1.0) testRemoveNonexistentThrowsException
