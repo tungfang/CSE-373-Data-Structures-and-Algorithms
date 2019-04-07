@@ -1,0 +1,44 @@
+# Feedback
+
+Group squirrel: leonz, tungfang
+
+Commit hash: 91569dbe17a53212b26651ed74623579fbda30a8
+
+Raw score: 45 / 45
+
+## Checkstyle
+
+Score: 5 / 5
+
+## ExpressionManipulators
+
+Score: 40 / 40
+
+-   PASS: (weight=1.0) testSimplifyHandlesDefinedVars
+-   PASS: (weight=1.0) testToDoubleComplexArithmetic
+-   PASS: (weight=1.0) testToDoubleComplexWithVariables
+-   PASS: (weight=1.0) testToDoubleWithUndefinedVariables
+-   PASS: (weight=1.0) testToDoubleBasicArithmeticOperations
+-   PASS: (weight=1.0) testToDoubleWithUnknownOperation
+-   PASS: (weight=1.0) testSimplifyBasicArithmeticOperationsWithVars
+-   PASS: (weight=1.0) testToDoubleWithVariables
+-   PASS: (weight=1.0) testSimplifyBasicArithmeticOperationsWithOnlyNumbers
+-   PASS: (weight=1.0) testToDoubleBasicTrig
+-   PASS: (weight=1.0) testSimplifyDoesNotModifyVarsDictionary
+-   PASS: (weight=1.0) testSimplifyHandlesDivisionAndPow
+-   PASS: (weight=1.0) testToDoubleDoesNotModifyVarsDictionary
+-   PASS: (weight=1.0) testSimplifyHandlesBasicTrig
+-   PASS: (weight=1.0) basicTestSimplifyNewNode
+-   PASS: (weight=1.0) basicTestToDouble
+-   PASS: (weight=1.0) basicTestToSimplify
+-   PASS: (weight=1.0) testBasicFunctions
+-   PASS: (weight=1.0) testBasicOperators
+-   PASS: (weight=1.0) testExample1BasicMath
+-   PASS: (weight=1.0) testExample2VariableRedefinition
+-   PASS: (weight=1.0) testExample3SymbolicEvaluation
+-   PASS: (weight=1.0) testPlotCleansUpVariable
+-   PASS: (weight=1.0) testPlotFailsOnBadInput
+-   PASS: (weight=1.0) testPlotFailsOnUnknown
+-   PASS: (weight=1.0) testPlotInputs
+-   PASS: (weight=1.0) testSimplification
+-   PASS: (weight=1.0) testToDoubleFailsOnUnknown
