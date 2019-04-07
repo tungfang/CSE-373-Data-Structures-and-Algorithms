@@ -1,0 +1,48 @@
+# Feedback
+
+Group geoduck: leonz, tungfang
+
+Commit hash: b12417a9c65c65b607947a44fd8c772085186b8b
+
+Raw score: 60 / 60
+
+## Checkstyle
+
+Score: 5 / 5
+
+## Graph
+
+Score: 20 / 20
+
+-   PASS: (weight=3.0) testDijkstraOnManyGraphs
+-   PASS: (weight=1.0) testGraphWithBadEdgeNotPermitted
+-   PASS: (weight=1.0) testFindingShortestPathSameStartAndEnd
+-   PASS: (weight=1.0) testFindingMst
+-   PASS: (weight=1.0) testFindingShortestPathComplex
+-   PASS: (weight=1.0) testFindingShortestPathSimple
+-   PASS: (weight=1.0) testFindingShortestPathDisconnectedComponents
+-   PASS: (weight=1.0) testSizeMethods
+-   PASS: (weight=1.0) testGraphWithNegativeEdgesNotPermitted
+
+## ArrayDisjointSet
+
+Score: 20 / 20
+
+-   PASS: (weight=1.0) testPathCompression
+-   PASS: (weight=1.0) testInternalStructure
+-   PASS: (weight=1.0) testDegenerateUnions
+-   PASS: (weight=1.0) testUnionSimple
+-   PASS: (weight=1.0) testUnionUnequalTrees
+-   PASS: (weight=1.0) testIllegalUnionThrowsException
+-   PASS: (weight=1.0) testLargeForest
+-   PASS: (weight=1.0) testIllegalFindSet
+-   PASS: (weight=1.0) testMakeSetAndFindSetSimple
+
+## KruskalMazeCarver
+
+Score: 15 / 15
+
+-   PASS: (weight=1.0) testCarverReturnsViableMST
+-   PASS: (weight=1.5) testGeneratesSolvableMaze
+-   PASS: (weight=1.5) testResultIsRandom
+-   PASS: (weight=1.0) testCarverDoesNotMutateMaze
