@@ -1,0 +1,43 @@
+# Feedback
+
+Group albatross: leonz, tungfang
+
+Commit hash: e6ee6c2f2ee2fa56545efc5e894c6de361737e79
+
+Raw score: 60 / 60
+
+## Checkstyle
+
+Score: 5 / 5
+
+## TfIdfAnalyzer
+
+Score: 30 / 30
+
+-   PASS: (weight=1.0) testQuerySameAsDoc
+-   PASS: (weight=1.0) testSingleDocument
+-   PASS: (weight=0.5) testDuplicateDocuments
+-   PASS: (weight=1.0) testQueryWithRepeatedWords
+-   PASS: (weight=1.0) testAnalyzerDoesNotMutateInput
+-   PASS: (weight=2.0) testAnalyzerComputeRelevanceHasReasonableRuntime
+-   PASS: (weight=2.0) testAnalyzerConstructorHasReasonableRuntime
+-   PASS: (weight=1.0) testQueryWithNoSimilarWords
+-   PASS: (weight=1.0) testSpecExampleVectorCreation
+-   PASS: (weight=1.0) testSpecExampleAgainstQuery
+
+## PageRankAnalyzer
+
+Score: 25 / 25
+
+-   PASS: (weight=2.0) testConstructorRuntime
+-   PASS: (weight=0.5) testExample1ZerothIteration
+-   PASS: (weight=1.0) testConstructorDoesNotMutateInput
+-   PASS: (weight=1.0) testUnconnectedPages
+-   PASS: (weight=1.0) testExample3EachIteration
+-   PASS: (weight=1.0) testFullyConnectedPages
+-   PASS: (weight=2.0) testComputePageRankRuntime
+-   PASS: (weight=1.0) testExample3DifferentDelta
+-   PASS: (weight=1.0) testExample1EachIteration
+-   PASS: (weight=1.0) testSpecExample1
+-   PASS: (weight=1.0) testSpecExample2
+-   PASS: (weight=1.0) testSpecExample3
