@@ -3,16 +3,16 @@ Fundamental algorithms and data structures for implementation. Techniques for so
 
 This repo contains all the team assignments that we have developed in the course.
 
-**Homework 2:Calculator Project**
+### Homework 2:Calculator Project
 *https://courses.cs.washington.edu/courses/cse373/19wi/homework/2/*
 
-**Homework 3: Testing, ChainedHashDictionary, and ChainedHashSet**
+### Homework 3: Testing, ChainedHashDictionary, and ChainedHashSet
 *https://courses.cs.washington.edu/courses/cse373/19wi/homework/3/*
 
-**Homework 5: Search Engine**
+### Homework 5: Search Engine
 *https://courses.cs.washington.edu/courses/cse373/19wi/homework/5/*
 
-**Homework 7: Generating and solving mazes**
+### Homework 7: Generating and solving mazes
 *https://courses.cs.washington.edu/courses/cse373/19wi/homework/7/*
 
 
