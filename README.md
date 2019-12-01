@@ -4,4 +4,3 @@ Fundamental algorithms and data structures for implementation. Techniques for so
 This repo contains all the team assignments that we have developed in the course.
 **The detailed assignment page can be found here:**
 https://courses.cs.washington.edu/courses/cse373/19wi/homework/
-https://github.com/tungfang/CSE-373-Data-Structures-and-Algorithms.git
