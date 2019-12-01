@@ -38,4 +38,13 @@ Your **ArrayDictionary** class will internally keep track of its key-value pairs
 ![code0](https://github.com/tungfang/Data-Structures-and-Algorithms/blob/master/373_images/HW2_Part1_images/code0.PNG)
 Your internal array should look like the following:
 ![arrayDict](https://github.com/tungfang/Data-Structures-and-Algorithms/blob/master/373_images/HW2_Part1_images/arrayDictionary.png)
+Now, suppose the user inserted a few more keys:
+![code1](https://github.com/tungfang/Data-Structures-and-Algorithms/blob/master/373_images/HW2_Part1_images/code1.PNG)
+Your internal array should now look like the below. Notice that we've updated the old key-value pair for "a" to store the new value. We've also removed the key-value pair for "b".
+![arraydict1](https://github.com/tungfang/Data-Structures-and-Algorithms/blob/master/373_images/HW2_Part1_images/arraydictionary1.png)
+This means you will need to scan through the internal array when retrieving, inserting, or deleting elements. If your array is full and the user inserts a new key, create a new array that is double the size of the old one and copy over the old elements. Minor design decisions, like the initial capacity of the array, are left up to you; choose something that reasonable and adjust if it seems necessary.
 
+Once completed, the design and logic of your **ArrayDictionary** should feel very similar to the **ArrayIntList** objects you previously studied in CSE 143.
+
+There is one general optimization we will have you implement. Because the values in the dictionary are inherently unordered, we can use this to our benefit in the **remove** method. Instead of shifting over all the elements as you would normally need to do to remove from an array, you should instead just replace the value stored at the index containing the element to be removed to be the last pair currently in the ArrayDictionary. Here is an example of what your internal representation may look like before, during, and after a single call to **dict.remove("a")**.
+![arraydict2](https://github.com/tungfang/Data-Structures-and-Algorithms/blob/master/373_images/HW2_Part1_images/arraydictionary2.png)
