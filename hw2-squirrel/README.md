@@ -1,6 +1,7 @@
 # Winter 2019: Homework 2: Part 1
 ## Part 1a: Implement DoubleLinkedList
 **Task: complete the DoubleLinkedList class.**
+
 A doubly-linked list is a similar to the singly-linked lists you studied in CSE 143 except in two crucial ways: your nodes now have pointers to both the previous and next nodes, and your linked list class has now have pointers to both the front and back of your sequence of list node objects.
 ![Linked List](https://github.com/tungfang/Data-Structures-and-Algorithms/blob/master/373_images/HW2_Part1_images/linkedList.png)
 Doubly-linked lists containing the same data will look like this:
@@ -14,6 +15,7 @@ Your implementation should:
 
 ## Part 1b: Write missing tests
 **Task: Modify TestDeleteFunctionality, and TestDeleteStress and add in tests for the delete method.**
+
 In part 1b, you will practice writing some unit tests using JUnit.
 
 Start by skimming through **TestDoubleLinkedList.java** and familiarize yourself with the tests we have given you. Since this is the first assignment, we've given you most of the tests you need, except for a few. Can you see what tests are missing?
@@ -21,5 +23,7 @@ Start by skimming through **TestDoubleLinkedList.java** and familiarize yourself
 There are no tests for the **DoubleLinkedList.delete(...)** method! Your job here is to write tests for this method.
 
 A few additional notes:
-- To help facilitate grading, we ask that you split your tests into two groups. All tests that check and make sure your delete(...) behaves correctly and matches the IList specification should be placed within the TestDeleteFunctionality file. Please keep all tests within **TestDeleteFunctionality** short.                                                                                                       Every test you add to this file should have a timeout of a second or less. (You're encouraged to add as many tests as you want, however.) Add any stress tests to TestDeleteStress. Stress tests are tests that either (a) focus on testing to make sure your code is efficient or (b) focus on testing to make sure your code is correct when it's asked to handle large amounts of data.
+- To help facilitate grading, we ask that you split your tests into two groups. All tests that check and make sure your delete(...) behaves correctly and matches the IList specification should be placed within the TestDeleteFunctionality file. Please keep all tests within **TestDeleteFunctionality** short.
+Every test you add to this file should have a timeout of a second or less. (You're encouraged to add as many tests as you want, however.) 
+Add any stress tests to TestDeleteStress. Stress tests are tests that either (a) focus on testing to make sure your code is efficient or (b) focus on testing to make sure your code is correct when it's asked to handle large amounts of data.
 Please see the existing stress tests in TestDoubleLinkedList to get a sense of what sorts of timeouts and list sizes you should be using.
