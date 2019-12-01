@@ -21,9 +21,5 @@ Start by skimming through TestDoubleLinkedList.java and familiarize yourself wit
 There are no tests for the DoubleLinkedList.delete(...) method! Your job here is to write tests for this method.
 
 A few additional notes:
-- To help facilitate grading, we ask that you split your tests into two groups. All tests that check and make sure your delete(...) behaves correctly and matches the IList specification should be placed within the TestDeleteFunctionality file.
-
-Please keep all tests within TestDeleteFunctionality short. Every test you add to this file should have a timeout of a second or less. (You're encouraged to add as many tests as you want, however.)
-
-Add any stress tests to TestDeleteStress. Stress tests are tests that either (a) focus on testing to make sure your code is efficient or (b) focus on testing to make sure your code is correct when it's asked to handle large amounts of data.
+- To help facilitate grading, we ask that you split your tests into two groups. All tests that check and make sure your delete(...) behaves correctly and matches the IList specification should be placed within the TestDeleteFunctionality file. Please keep all tests within TestDeleteFunctionality short. Every test you add to this file should have a timeout of a second or less. (You're encouraged to add as many tests as you want, however.) Add any stress tests to TestDeleteStress. Stress tests are tests that either (a) focus on testing to make sure your code is efficient or (b) focus on testing to make sure your code is correct when it's asked to handle large amounts of data.
 Please see the existing stress tests in TestDoubleLinkedList to get a sense of what sorts of timeouts and list sizes you should be using.
