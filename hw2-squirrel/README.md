@@ -50,3 +50,6 @@ Once completed, the design and logic of your **ArrayDictionary** should feel ver
 
 There is one general optimization we will have you implement. Because the values in the dictionary are inherently unordered, we can use this to our benefit in the **remove** method. Instead of shifting over all the elements as you would normally need to do to remove from an array, you should instead just replace the value stored at the index containing the element to be removed to be the last pair currently in the ArrayDictionary. Here is an example of what your internal representation may look like before, during, and after a single call to **dict.remove("a")**.
 ![arraydict2](https://github.com/tungfang/Data-Structures-and-Algorithms/blob/master/373_images/HW2_Part1_images/arraydictionary2.png)
+
+
+## Part2 Detailed Spec: https://courses.cs.washington.edu/courses/cse373/19wi/homework/2/p2/
