@@ -38,8 +38,10 @@ Your **ArrayDictionary** class will internally keep track of its key-value pairs
 ![code0](https://github.com/tungfang/Data-Structures-and-Algorithms/blob/master/373_images/HW2_Part1_images/code0.PNG)
 Your internal array should look like the following:
 ![arrayDict](https://github.com/tungfang/Data-Structures-and-Algorithms/blob/master/373_images/HW2_Part1_images/arrayDictionary.png)
+
 Now, suppose the user inserted a few more keys:
 ![code1](https://github.com/tungfang/Data-Structures-and-Algorithms/blob/master/373_images/HW2_Part1_images/code1.PNG)
+
 Your internal array should now look like the below. Notice that we've updated the old key-value pair for "a" to store the new value. We've also removed the key-value pair for "b".
 ![arraydict1](https://github.com/tungfang/Data-Structures-and-Algorithms/blob/master/373_images/HW2_Part1_images/arraydictionary1.png)
 This means you will need to scan through the internal array when retrieving, inserting, or deleting elements. If your array is full and the user inserts a new key, create a new array that is double the size of the old one and copy over the old elements. Minor design decisions, like the initial capacity of the array, are left up to you; choose something that reasonable and adjust if it seems necessary.
